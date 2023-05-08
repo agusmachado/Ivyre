@@ -107,21 +107,21 @@ a{
     width: 5rem;
     height: 1.3rem;
     margin: 2%;
-    border: 1.7px solid transparent; 
+    border: 2px solid transparent; 
     text-align: center;    
 }
 .boton-1:hover{
     width: 5rem;
     height: 1.3rem;
     margin: 2%;
-    border: 1.7px solid black; 
+    border: 2px solid black; 
     text-align: center;    
 }
 .boton-2{
     width: 5rem;
     height: 1.3rem;
     margin: 2%;
-    border: 1.7px solid black; 
+    border: 2px solid black; 
     text-align: center;
 }
 .boton-2:hover{
@@ -129,7 +129,7 @@ a{
     height: 1.3rem;
     margin: 2%;
     width: 5rem;
-    border: 1.7px solid transparent; 
+    border: 2px solid transparent; 
     text-align: center;
     
     
