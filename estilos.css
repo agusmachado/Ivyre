@@ -13,7 +13,7 @@ header{
     justify-content: space-between;
     align-items: center; 
     height: 10%;
-    padding: 1% 5% 0 5%;       
+    padding: 1% 2% 0 5%;       
 }
 
 /* Logo */
@@ -22,8 +22,8 @@ header{
     font-size: 25px;    
     cursor: pointer;
     transition: all 0.3s;  
-    letter-spacing: -0.3rem;  
-    font-family: 'Roboto Serif', serif;
+    letter-spacing: -0.4rem;  
+    font-family: 'Roboto Serif', serif;    
     padding-bottom: 1.5%;
 }
 
@@ -65,6 +65,9 @@ a{
     align-items: center;
     width: 20rem; 
 }
+.fila-botones:hover{
+    cursor: pointer;
+}
 .lupa-bag{
     display: flex;
     justify-content: space-around;
@@ -98,8 +101,7 @@ a{
 
 .botones-sign-in{
     display: flex; 
-    justify-content: center; 
-    cursor: pointer;
+    justify-content: center;     
 } 
 .boton-1{
     width: 5rem;
@@ -122,6 +124,16 @@ a{
     border: 1.7px solid black; 
     text-align: center;
 }
+.boton-2:hover{
+    width: 5rem;
+    height: 1.3rem;
+    margin: 2%;
+    width: 5rem;
+    border: 1.7px solid transparent; 
+    text-align: center;
+    
+    
+}
 button{
     background-color: transparent;
     border: none;    
@@ -136,13 +148,13 @@ main{
  background-image: url(imagenes/merlin-6.png), linear-gradient(
     to right,
     white 0%,
-    white 60%,
-    rgb(214, 190, 166) 60%,
-    rgb(214, 190, 166) 60%        
+    white 63%,
+    rgb(214, 190, 166) 63%,
+    rgb(214, 190, 166) 63%        
 );
  background-size: 70vh, cover;
  background-repeat: no-repeat;
- background-position: 67% bottom;
+ background-position: 71.5% bottom;
 }
 
 /* CONTENIDO PRINCIPAL */
@@ -183,25 +195,30 @@ main{
     font-family: 'Roboto', sans-serif;
     cursor: pointer;   
 }
+.boton-3:hover{
+    border: 3px solid transparent;
+}
 
 .textoContenido{
     width: 40%;
-    margin-top: 20%; 
-    margin-bottom: 5% ;
+    margin-top: 15%; 
+    margin-bottom: 0% ;
     font-size: 13px;
-    color: rgb(87, 76, 76);
+    color: rgb(158, 127, 127);
+    font-family: 'Roboto Serif', serif;
+    line-height: 1.5;
 }
 
 /* Barra vertical */
 
 .barraVertical{
     display: flex;
-    align-items:flex-end;      
+    align-items:flex-end;       
 }
 
 .barraVerticalColores{
     height: 9rem;
-    width: 0.2rem;
+    width: 0.3rem;
     background: linear-gradient(
         to top,
         rgb(167, 152, 137) 0%,
