@@ -11,6 +11,8 @@ header{
     padding: 1% 5% 0 5%;       
 }
 
+/* Logo */
+
 .logo{
     font-size: 25px;    
     cursor: pointer;
@@ -116,16 +118,8 @@ button{
 }
 main{
  width: 100%;
- height: 100vh;   
- /* background: linear-gradient(
-        to right,
-        white 0%,
-        white 60%,
-        rgb(214, 190, 166) 60%,
-        rgb(214, 190, 166) 60%        
-    );  */
-
-background-image: url(imagenes/merlin-6.png), linear-gradient(
+ height: 100vh;
+ background-image: url(imagenes/merlin-6.png), linear-gradient(
     to right,
     white 0%,
     white 60%,
