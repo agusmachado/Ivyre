@@ -43,18 +43,19 @@ nav{
 .nav-links{
     list-style: none; 
     font-size: 12px;
-    font-weight: bold;   
+    font-weight: bold; 
+    transition: all 0.5s;    
 }
 .nav-links li{
     display: inline-block;
-    padding: 0 3rem;
+    padding: 0 3rem;    
 }
 .nav-links a:hover{
-    border-bottom: 2px solid black;    
+    border-bottom: 2px solid black;          
 }
 a{
     color: black;
-    text-decoration: none;
+    text-decoration: none;    
 }
 
 /* PARTE DERECHA DEL NAV - LUPA, BAG, SIGN IN */
@@ -139,17 +140,16 @@ main{
 /* CONTENIDO PRINCIPAL */
 
 .container{
-    display: flex;
+    display: flex;    
     align-items: center;
-    padding: 0%;
+    justify-content: space-between;
+    padding: 0 5% 0 5%;
 }
 
 /* Contenido izquierda */
 .contenidoIzquierda{
     display: flex;
-    flex-direction: column;  
-    /* margin-bottom: 10%; */ 
-    padding: 0 0 0 5%;    
+    flex-direction: column;         
 }
 
 /* Titulo colección */
@@ -185,11 +185,10 @@ main{
 
 .barraVertical{
     display: flex;
-    align-items: center; 
-    padding-right: 2%;   
+    align-items:flex-end;      
 }
+
 .barraVerticalColores{
-    /* border: 1px solid black; */
     height: 9rem;
     width: 0.2rem;
     background: linear-gradient(
@@ -204,9 +203,8 @@ main{
     font-size: 7px; 
     vertical-align: auto;
     padding-right: 0.2rem;
-    /* writing-mode: vertical-lr;
-    text-orientation: upright; */
+    font-weight: bold;
 }
 .numerosBarraVerticalPuntuales{
-    padding-bottom: 2.5rem;
+    padding-bottom: 2rem;
 }
