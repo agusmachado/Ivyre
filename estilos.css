@@ -153,7 +153,7 @@ main{
     rgb(214, 190, 166) 63%,
     rgb(214, 190, 166) 63%        
 );
- background-size: 70vh, cover;
+ background-size: 72vh, cover;
  background-repeat: no-repeat;
  background-position: 71.5% bottom;
 }
@@ -170,7 +170,7 @@ main{
 /* Contenido izquierda */
 .contenidoIzquierda{
     display: flex;
-    flex-direction: column;         
+    flex-direction: column;             
 }
 
 /* Titulo colección */
@@ -178,7 +178,7 @@ main{
 .tituloColeccion{
     font-size: 6.52rem;
     font-weight:bold; 
-    margin-top: 20%;      
+    margin-top: 18%;      
 }
 
 /* Botón contenido principal */
