@@ -2,6 +2,11 @@
     padding: 0;
     margin: 0;
 }
+
+.nav-links, .textoContenido{
+    font-family: 'Roboto', sans-serif;    
+}
+
 /* HEADER */
 header{
     display: flex;
@@ -129,4 +134,79 @@ main{
  background-size: 70vh, cover;
  background-repeat: no-repeat;
  background-position: 67% bottom;
+}
+
+/* CONTENIDO PRINCIPAL */
+
+.container{
+    display: flex;
+    align-items: center;
+    padding: 0%;
+}
+
+/* Contenido izquierda */
+.contenidoIzquierda{
+    display: flex;
+    flex-direction: column;  
+    /* margin-bottom: 10%; */ 
+    padding: 0 0 0 5%;    
+}
+
+/* Titulo colección */
+
+.tituloColeccion{
+    font-size: 6.52rem;
+    font-weight:bold; 
+    margin-top: 20%;      
+}
+
+/* Botón contenido principal */
+
+.boton-3{
+    width: 8rem;
+    height: 2.5rem;    
+    border: 3px solid black;     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 4px;
+    margin-top: 8%;    
+}
+
+.textoContenido{
+    width: 40%;
+    margin-top: 20%; 
+    margin-bottom: 5% ;
+    font-size: 13px;
+    color: rgb(87, 76, 76);
+}
+
+/* Barra vertical */
+
+.barraVertical{
+    display: flex;
+    align-items: center; 
+    padding-right: 2%;   
+}
+.barraVerticalColores{
+    /* border: 1px solid black; */
+    height: 9rem;
+    width: 0.2rem;
+    background: linear-gradient(
+        to top,
+        rgb(167, 152, 137) 0%,
+        rgb(167, 152, 137) 70%,
+        black 70%
+    );
+}
+.numerosBarraVertical{
+    font-family: 'Roboto', sans-serif; ;
+    font-size: 7px; 
+    vertical-align: auto;
+    padding-right: 0.2rem;
+    /* writing-mode: vertical-lr;
+    text-orientation: upright; */
+}
+.numerosBarraVerticalPuntuales{
+    padding-bottom: 2.5rem;
 }
