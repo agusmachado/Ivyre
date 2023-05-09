@@ -14,13 +14,13 @@ header{
     justify-content: space-between;
     align-items: center; 
     height: 10%;
-    padding: 1% 2% 0 5%;       
+    padding: 0.5% 2% 0 5%;       
 }
 
 /* Logo */
 
 .logo{
-    font-size: 25px;    
+    font-size: 20px;    
     cursor: pointer;
     transition: all 0.3s;  
     letter-spacing: -0.4rem;  
@@ -114,28 +114,28 @@ a{
 } 
 .boton-1{
     width: 5rem;
-    height: 1.3rem;
+    height: 1.6rem;
     margin: 2%;
     border: 2px solid transparent; 
     text-align: center;    
 }
 .boton-1:hover{
     width: 5rem;
-    height: 1.3rem;
+    height: 1.6rem;
     margin: 2%;
     border: 2px solid black; 
     text-align: center;    
 }
 .boton-2{
     width: 5rem;
-    height: 1.3rem;
+    height: 1.6rem;
     margin: 2%;
     border: 2px solid black; 
     text-align: center;
 }
 .boton-2:hover{
     width: 5rem;
-    height: 1.3rem;
+    height: 1.6rem;
     margin: 2%;
     width: 5rem;
     border: 2px solid transparent; 
@@ -192,13 +192,13 @@ main{
 /* Botón contenido principal */
 
 .boton-3{
-    width: 8rem;
-    height: 2.5rem;    
+    width: 12rem;
+    height: 3.5rem;    
     border: 3px solid black;     
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     font-weight: 4px;
     margin-top: 8%; 
     font-family: 'Roboto', sans-serif;
@@ -227,7 +227,7 @@ main{
 
 .barraVerticalColores{
     height: 9rem;
-    width: 0.3rem;
+    width: 0.25rem;
     background: linear-gradient(
         to top,
         rgb(167, 152, 137) 0%,
